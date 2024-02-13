@@ -120,10 +120,10 @@ app.post("/", express.json(), (request, response) => {
   const intentMap = new Map();
 
   intentMap.set("0_demo", demo);
-  //   intentMap.set("01_customPayloadDemo", customPayloadDemo);
-  //   intentMap.set("02_hire_and_meeting", hireAndMeeting);
-  //   intentMap.set("03_ask_email", askEmail);
-  //   intentMap.set("04_confirm_meeting", confirmMeeting);
+  intentMap.set("01_customPayloadDemo", customPayloadDemo);
+  intentMap.set("02_hire_and_meeting", hireAndMeeting);
+  intentMap.set("03_ask_email", askEmail);
+  intentMap.set("04_confirm_meeting", confirmMeeting);
   intentMap.set("01_Reservation", reservation);
   intentMap.set("askBiodata", confirmReservation);
 
